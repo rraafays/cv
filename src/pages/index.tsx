@@ -105,20 +105,12 @@ const App: React.FC = () => {
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>About</h2>
             <p>
-              Raafay "Raf" Shahid is a passionate and versatile software
-              engineer with a deep-rooted love for programming that began at the
-              age of 13. Raf is a confident and sociable individual with a
-              strong technical foundation and a broad range of interests.
-              <br /> <br />
-            </p>
-            <p>
-              Outside of software engineering, Raf has been practicing Muay Thai
-              for over a year, enjoys cooking both at home and professionally,
-              and has a long-standing passion for painting. He also restores
-              vintage and modern technology and is learning motor mechanics from
-              his father. Committed to digital minimalism, Raf ensures a
-              balanced and focused approach to both his personal and
-              professional life.
+              "Raf" Shahid is a versatile software engineer with a strong
+              technical foundation and hands-on experience in languages like
+              Rust, Java, and Python. Currently pursuing a BEng in Software
+              Engineering, he has delivered impactful projects and gained
+              diverse work experience, blending technical expertise with a
+              passion for innovation and growth.
               <br />
             </p>
           </section>
