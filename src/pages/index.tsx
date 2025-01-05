@@ -35,6 +35,11 @@ const App: React.FC = () => {
               <li>
                 <a href="https://github.com/rraafays">github.com/rraafays</a>
               </li>
+              <li>
+                <a href="https://linkedin.com/in/rraafay">
+                  linkedin.com/in/rraafay
+                </a>
+              </li>
             </ul>
           </section>
 
@@ -55,19 +60,11 @@ const App: React.FC = () => {
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Languages</h2>
             <ul style={{ listStyleType: "none" }}>
-              <li>English: Native</li>
-              <li>Spanish: Intermediate</li>
-              <li>Urdu: Beginner</li>
-              <li>Punjabi: Beginner</li>
+              <li>English</li>
+              <li>Spanish</li>
+              <li>Punjabi</li>
+              <li>Urdu</li>
             </ul>
-          </section>
-
-          <section style={{ marginBottom: "20px" }}>
-            <h2 style={{ fontSize: "16px" }}>Passions</h2>
-            <p>
-              Martial Arts, Muay Thai, Cooking, Painting, Technology
-              Restoration, Motor Mechanics, Digital Minimalism
-            </p>
           </section>
 
           <section style={{ marginBottom: "20px" }}>
@@ -95,7 +92,15 @@ const App: React.FC = () => {
               <b>Allerton High School</b>
               <br />
               2013 - 2018
-              <br /> <br />
+              <br />
+            </p>
+          </section>
+
+          <section style={{ marginBottom: "20px" }}>
+            <h2 style={{ fontSize: "16px" }}>Passions</h2>
+            <p>
+              Martial Arts, Muay Thai, Cooking, Painting, Electronics, Motor
+              Mechnanics, Digital Minimalism, Music, Movies, Photography
             </p>
           </section>
         </div>
@@ -118,29 +123,20 @@ const App: React.FC = () => {
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Notable Projects</h2>
             <ul style={{ listStyleType: "none" }}>
+              <b>SHU Library: software architecture & design project</b>
+              <br /> November 2024 <br />
               <b>FRMWRK: reproducible laptop system</b>
-              <br />
-              September 2024
-              <br />
+              <br /> September 2024 <br />
+              <b>Barish: BBC weather scraper written in rust</b>
+              <br /> August 2023 <br />
               <b>Doro: pomodoro timer written in rust</b>
-              <br />
-              July 2023
-              <br />
+              <br /> July 2023 <br />
               <b>Socks: multi-threaded socket based chat</b>
-              <br />
-              January 2023
-              <br />
-              <b>SHU Bank: small-scale online banking </b>
-              <br />
-              November 2022
-              <br />
+              <br /> January 2023 <br />
               <b>Personal Website: projects & passions showcase</b>
-              <br />
-              July 2022
-              <br />
+              <br /> July 2022 <br />
               <b>SHUber: Uber-inspired taxi application</b>
-              <br />
-              February 2020
+              <br /> February 2020
             </ul>
           </section>
 
