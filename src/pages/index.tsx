@@ -106,6 +106,22 @@ const App: React.FC = () => {
               <li>Urdu</li>
             </ul>
           </section>
+
+          <section style={{ marginBottom: "20px" }}>
+            <h2 style={{ fontSize: "16px" }}>References</h2>
+            <ul style={{ listStyleType: "none" }}>
+              <li>
+                <b>Mick Marriott</b>
+                <br />
+                <a>linkedin.com/in/mickmarriott</a>
+              </li>
+              <li>
+                <b>Paul Bell</b>
+                <br />
+                <a>linkedin.com/in/paulbell306</a>
+              </li>
+            </ul>
+          </section>
         </div>
 
         {/* Right Column */}
@@ -155,7 +171,7 @@ const App: React.FC = () => {
               with channels which stores chats as json objects allowing a dead
               server to deserialise and restore itself upon start using a log
               file
-              <br /> <b>january 2023</b>
+              <br /> <b>January 2023</b>
             </ul>
           </section>
 
@@ -163,16 +179,20 @@ const App: React.FC = () => {
             <h2 style={{ fontSize: "16px" }}>Work Experience</h2>
             <div style={{ fontSize: "14px" }}>
               <b>Placement Software Engineer: Cognitran Limited</b>
-              <br /> Worked on full stack software systems for Jaguar Land Rover
-              as well as internal software solutions provided by Cognitran for
-              companies such as JCB {"&"} Harley Davidson
+              <br /> Worked on a Typescript, Java, JSP, MySQL full stack system
+              for Jaguar Land Rover as well as internal software solutions
+              provided by Cognitran for companies such as JCB {"&"} Harley
+              Davidson. Responsible for development, local testing, estimations,
+              database migrations, releases and demoing features to clients
               <br /> <b>August 2023 - August 2024</b>
               <br />
               <br />
               <b>Pizza Chef: Ecco Pizzeria</b>
               <br /> Worked in a fast paced environment as both back of house
               {" &"} front of house chef at my local restaurant, learnt how to
-              manage stock and balance timing and work under pressure
+              manage stock and balance timing and work under pressure.
+              Responsible for food preparation, furnace managing, stock taking
+              and cleaning
               <br /> <b>August 2022 - February 2023</b>
             </div>
           </section>
