@@ -9,12 +9,29 @@ const App: React.FC = () => {
         margin: "40px",
       }}
     >
-      <div>
-        <h1>Abdul Raafay Shahid</h1>
-        <p>
-          14 Carr Manor Walk | Leeds, LS17 5DN | (+44) 07802805827 |
-          rraf@tuta.io
-        </p>
+      <div
+        style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
+      >
+        <div>
+          <img
+            src="img.jpg"
+            alt="Circular Image"
+            style={{
+              width: "100px",
+              height: "100px",
+              borderRadius: "50%",
+              objectFit: "cover",
+              marginRight: 25,
+            }}
+          />
+        </div>
+        <div>
+          <h1>Abdul Raafay Shahid</h1>
+          <p>
+            14 Carr Manor Walk | Leeds, LS17 5DN | (+44) 07802805827 |
+            rraf@tuta.io
+          </p>
+        </div>
       </div>
       <div
         style={{
@@ -40,30 +57,6 @@ const App: React.FC = () => {
                   linkedin.com/in/rraafay
                 </a>
               </li>
-            </ul>
-          </section>
-
-          <section style={{ marginBottom: "20px" }}>
-            <h2 style={{ fontSize: "16px" }}>Technologies</h2>
-            <ul style={{ listStyleType: "none" }}>
-              <li>Rust</li>
-              <li>Java</li>
-              <li>C#</li>
-              <li>Typescript</li>
-              <li>Javasript</li>
-              <li>Python</li>
-              <li>C</li>
-              <li>C++</li>
-            </ul>
-          </section>
-
-          <section style={{ marginBottom: "20px" }}>
-            <h2 style={{ fontSize: "16px" }}>Languages</h2>
-            <ul style={{ listStyleType: "none" }}>
-              <li>English</li>
-              <li>Spanish</li>
-              <li>Punjabi</li>
-              <li>Urdu</li>
             </ul>
           </section>
 
@@ -103,13 +96,23 @@ const App: React.FC = () => {
               Mechnanics, Digital Minimalism, Music, Movies, Photography
             </p>
           </section>
+
+          <section style={{ marginBottom: "20px" }}>
+            <h2 style={{ fontSize: "16px" }}>Languages</h2>
+            <ul style={{ listStyleType: "none" }}>
+              <li>English</li>
+              <li>Spanish</li>
+              <li>Punjabi</li>
+              <li>Urdu</li>
+            </ul>
+          </section>
         </div>
 
         {/* Right Column */}
         <div style={{ width: "65%", fontSize: "16px" }}>
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>About</h2>
-            <p>
+            <p style={{ fontSize: "14px" }}>
               "Raf" Shahid is a versatile software engineer with a strong
               technical foundation and hands-on experience in languages like
               Rust, Java, and Python. Currently pursuing a BEng in Software
@@ -122,41 +125,56 @@ const App: React.FC = () => {
 
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Notable Projects</h2>
-            <ul style={{ listStyleType: "none" }}>
-              <b>SHU Library: software architecture & design project</b>
-              <br /> November 2024 <br />
-              <b>FRMWRK: reproducible laptop system</b>
-              <br /> September 2024 <br />
-              <b>Barish: BBC weather scraper written in rust</b>
-              <br /> August 2023 <br />
-              <b>Doro: pomodoro timer written in rust</b>
-              <br /> July 2023 <br />
-              <b>Socks: multi-threaded socket based chat</b>
-              <br /> January 2023 <br />
-              <b>Personal Website: projects & passions showcase</b>
-              <br /> July 2022 <br />
-              <b>SHUber: Uber-inspired taxi application</b>
-              <br /> February 2020
+            <ul style={{ listStyleType: "none", fontSize: "14px" }}>
+              <b>SHU Software Architecture {"&"} Design</b>
+              <br /> Learnt how to architect software systems, created a grand
+              design document as well as various artifacts to document the new
+              system
+              <br /> <b>November 2024</b>
+              <br />
+              <br />
+              <b>FRMWRK</b>
+              <br /> Ongoing system configuration for my immutable and
+              reproducible laptop work and entertainment system which takes a
+              modular approach leveraging gitsubmodules allowing shared modules
+              across an array of systems
+              <br />
+              <b>September 2024</b>
+              <br />
+              <br />
+              <b>Barish</b>
+              <br /> BBC weather scraper which allows the user to provide a
+              location as an argument and then pulls the correct weather
+              information using a table of arbitrary location codes used by BBC
+              weather's official rss feed
+              <br /> <b>Agusut 2023</b>
+              <br />
+              <br />
+              <b>Socks</b>
+              <br /> multi-threaded client-server socket based chat application
+              with channels which stores chats as json objects allowing a dead
+              server to deserialise and restore itself upon start using a log
+              file
+              <br /> <b>january 2023</b>
             </ul>
           </section>
 
           <section>
             <h2 style={{ fontSize: "16px" }}>Work Experience</h2>
-            <b>Placement Software Engineer: Cognitran Limited</b>
-            <br />
-            August 2023 - August 2024
-            <br />
-            <b>Pizza Chef: Ecco Pizzeria</b>
-            <br />
-            August 2022 - February 2023
-            <br />
-            <b>Voluntary Technician: AALFY</b>
-            <br />
-            August 2021 - December 2022
-            <br />
-            <b>Front of House: Friesday</b>
-            <br />
-            August 2021 - July 2022
+            <div style={{ fontSize: "14px" }}>
+              <b>Placement Software Engineer: Cognitran Limited</b>
+              <br /> Worked on full stack software systems for Jaguar Land Rover
+              as well as internal software solutions provided by Cognitran for
+              companies such as JCB {"&"} Harley Davidson
+              <br /> <b>August 2023 - August 2024</b>
+              <br />
+              <br />
+              <b>Pizza Chef: Ecco Pizzeria</b>
+              <br /> Worked in a fast paced environment as both back of house
+              {" &"} front of house chef at my local restaurant, learnt how to
+              manage stock and balance timing and work under pressure
+              <br /> <b>August 2022 - February 2023</b>
+            </div>
           </section>
         </div>
       </div>
