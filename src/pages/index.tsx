@@ -98,13 +98,24 @@ const App: React.FC = () => {
           </section>
 
           <section style={{ marginBottom: "20px" }}>
+            <h2 style={{ fontSize: "16px" }}>Soft Skills</h2>
+            <p>
+              Public Speaking, Time Management, Compromisation, Perspective
+              Shifting
+            </p>
+          </section>
+
+          <section style={{ marginBottom: "20px" }}>
+            <h2 style={{ fontSize: "16px" }}>Technologies</h2>
+            <p>
+              Rust, NextJS, React, React Native, Typescript, C#, Java, Python,
+              MySQL, SQLite, Firebase, Strapi
+            </p>
+          </section>
+
+          <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Languages</h2>
-            <ul style={{ listStyleType: "none" }}>
-              <li>English</li>
-              <li>Spanish</li>
-              <li>Punjabi</li>
-              <li>Urdu</li>
-            </ul>
+            <p>English, Spanish, Punjabi, Urdu</p>
           </section>
 
           <section style={{ marginBottom: "20px" }}>
