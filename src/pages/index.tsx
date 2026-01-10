@@ -26,9 +26,9 @@ const App: React.FC = () => {
           />
         </div>
         <div>
-          <h1>Abdul Raafay Shahid</h1>
+          <h1>[Raf] Abdul Raafay Shahid</h1>
           <p>
-            14 Carr Manor Walk | Leeds, LS17 5DN | (+44) 07802805827 |
+            14 Carr Manor Walk | Leeds, LS17 5DN | +44 7802 805827 |
             rraf@tuta.io
           </p>
         </div>
