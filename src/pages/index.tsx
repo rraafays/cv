@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <div
       style={{
-        fontFamily: "Iosevka Term Curly",
+        fontFamily: "Iosevka Curly",
         margin: "40px",
       }}
     >
@@ -40,15 +40,26 @@ const App: React.FC = () => {
         }}
       >
         {/* Left Column */}
-        <div style={{ width: "35%", paddingRight: "20px", fontSize: "14px" }}>
+        <div style={{ width: "40%", paddingRight: "20px", fontSize: "14px" }}>
+          <section style={{ marginBottom: "20px" }}>
+            <h2 style={{ fontSize: "16px" }}>References</h2>
+            <ul style={{ listStyleType: "none" }}>
+              <li>
+                <b>Carl Robinson: Tech Lead</b>
+                <br />
+                +44 7946 211406
+              </li>
+              <li>
+                <b>Niall Walsh: Senior Engineer</b>
+                <br />
+                +44 7756 511924
+              </li>
+            </ul>
+          </section>
+
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Links</h2>
             <ul style={{ listStyleType: "none" }}>
-              <li>
-                <a href="https://raafay.world/projects">
-                  raafay.world/projects
-                </a>
-              </li>
               <li>
                 <a href="https://github.com/rraafays">github.com/rraafays</a>
               </li>
@@ -61,149 +72,98 @@ const App: React.FC = () => {
           </section>
 
           <section style={{ marginBottom: "20px" }}>
-            <h2 style={{ fontSize: "16px" }}>Education</h2>
-            <p>
-              BEng Software Engineering
-              <br />
-              <b>Sheffield Hallam University</b>
-              <br />
-              2020 - present
-              <br /> <br />
-            </p>
-            <p>
-              A-Level Computer Science (C), Maths (C), Economics (D)
-              <br />
-              <b>Notre Dame Catholic Sixth Form College</b>
-              <br />
-              2018 - 2020
-              <br /> <br />
-            </p>
-            <p>
-              GCSE Computer Science (A*), Maths (7), English (6 5), Combined
-              Science (6 5), Geography (6), Spanish (5), IT (B)
-              <br />
-              <b>Allerton High School</b>
-              <br />
-              2013 - 2018
-              <br />
-            </p>
+            <h2 style={{ fontSize: "16px" }}>Languages</h2>
+            <p>English, Chinese, Urdu</p>
           </section>
 
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Passions</h2>
             <p>
-              Martial Arts, Muay Thai, Cooking, Painting, Electronics, Motor
-              Mechnanics, Digital Minimalism, Music, Movies, Photography
-            </p>
-          </section>
-
-          <section style={{ marginBottom: "20px" }}>
-            <h2 style={{ fontSize: "16px" }}>Soft Skills</h2>
-            <p>
-              Public Speaking, Time Management, Compromisation, Perspective
-              Shifting
+              Cooking, Painting, Music, Movies, Photography, Muay Thai, Motor
+              Mechanics, Media Preservation, Right to Repair
             </p>
           </section>
 
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Technologies</h2>
             <p>
-              Rust, NextJS, React, React Native, Typescript, C#, Java, Python,
-              MySQL, SQLite, Firebase, Strapi
+              Typescript, NextJS, React, React Native, Java, C#, Python, Rust,
+              C, SQL, AWS, Linux, Bash, Nix
             </p>
           </section>
 
           <section style={{ marginBottom: "20px" }}>
-            <h2 style={{ fontSize: "16px" }}>Languages</h2>
-            <p>English, Spanish, Punjabi, Urdu</p>
-          </section>
-
-          <section style={{ marginBottom: "20px" }}>
-            <h2 style={{ fontSize: "16px" }}>References</h2>
-            <ul style={{ listStyleType: "none" }}>
-              <li>
-                <b>Mick Marriott</b>
-                <br />
-                <a>linkedin.com/in/mickmarriott</a>
-              </li>
-              <li>
-                <b>Paul Bell</b>
-                <br />
-                <a>linkedin.com/in/paulbell306</a>
-              </li>
-            </ul>
+            <h2 style={{ fontSize: "16px" }}>Education</h2>
+            <p>
+              <b>BEng Software Engineering</b>
+              <br />
+              Sheffield Hallam University
+              <br />
+              <b>2020 - 2025</b>
+              <br /> <br />
+            </p>
+            <p>
+              <b>A-Level: Computer Science, Maths, Economics</b>
+              <br />
+              Notre Dame Catholic Sixth Form College
+              <br />
+              <b>2018 - 2020</b>
+              <br /> <br />
+            </p>
+            <p>
+              <b>
+                GCSE: Computer Science, IT, Maths, Physics, Geography, Spanish,
+                Fine Art
+              </b>
+              <br />
+              Allerton High School
+              <br />
+              <b>2013 - 2018</b>
+              <br />
+            </p>
           </section>
         </div>
 
         {/* Right Column */}
-        <div style={{ width: "65%", fontSize: "16px" }}>
+        <div style={{ width: "60%", fontSize: "16px" }}>
           <section style={{ marginBottom: "20px" }}>
-            <h2 style={{ fontSize: "16px" }}>About</h2>
-            <p style={{ fontSize: "14px" }}>
-              "Raf" Shahid is a versatile software engineer with a strong
-              technical foundation and hands-on experience in languages like
-              Rust, Java, and Python. Currently pursuing a BEng in Software
-              Engineering, he has delivered impactful projects and gained
-              diverse work experience, blending technical expertise with a
-              passion for innovation and growth.
-              <br />
-            </p>
-          </section>
-
-          <section style={{ marginBottom: "20px" }}>
-            <h2 style={{ fontSize: "16px" }}>Notable Projects</h2>
-            <ul style={{ listStyleType: "none", fontSize: "14px" }}>
-              <b>SHU Software Architecture {"&"} Design</b>
-              <br /> Learnt how to architect software systems, created a grand
-              design document as well as various artifacts to document the new
-              system
-              <br /> <b>November 2024</b>
-              <br />
-              <br />
-              <b>FRMWRK</b>
-              <br /> Ongoing system configuration for my immutable and
-              reproducible laptop work and entertainment system which takes a
-              modular approach leveraging gitsubmodules allowing shared modules
-              across an array of systems
-              <br />
-              <b>September 2024</b>
-              <br />
-              <br />
-              <b>Barish</b>
-              <br /> BBC weather scraper which allows the user to provide a
-              location as an argument and then pulls the correct weather
-              information using a table of arbitrary location codes used by BBC
-              weather's official rss feed
-              <br /> <b>Agusut 2023</b>
-              <br />
-              <br />
-              <b>Socks</b>
-              <br /> multi-threaded client-server socket based chat application
-              with channels which stores chats as json objects allowing a dead
-              server to deserialise and restore itself upon start using a log
-              file
-              <br /> <b>January 2023</b>
-            </ul>
-          </section>
-
-          <section>
             <h2 style={{ fontSize: "16px" }}>Work Experience</h2>
             <div style={{ fontSize: "14px" }}>
+              <b>Software Engineer: RAM Tracking</b>
+              <br />
+              Worked on reaching feature parity between a legacy monolithic
+              system and a new microservices system. Both of which process,
+              interpret and store vehicle tracking unit messages and also
+              provide a user interface for customers to view, track and manage
+              their assets. I also wrote internal use parsing and encoding tools
+              to aid development. Legacy system was written in Java, Javascript,
+              MySQL, AWS. New services were written in Java, Groovy, Kotlin,
+              database remained MySQL and AWS, web frontend was React, app was
+              React Native. Responsible for development, testing, documenting,
+              releases, demoing. I was also entrusted with architecting and
+              implementing a new data model as we began to consume an old camera
+              unit project into a new microservice
+              <br /> <b>Feburary 2025 - Present</b>
+              <br />
+              <br />
               <b>Placement Software Engineer: Cognitran Limited</b>
-              <br /> Worked on a Typescript, Java, JSP, MySQL full stack system
-              for Jaguar Land Rover as well as internal software solutions
-              provided by Cognitran for companies such as JCB {"&"} Harley
-              Davidson. Responsible for development, local testing, estimations,
-              database migrations, releases and demoing features to clients
+              <br />
+              Worked on two fullstack projects during the year, the first was a
+              bespoke legacy system written in Java, Javascript, Java Server
+              Pages, MySQL, Oracle DB. The second was a new NextJS project with
+              a frontend and backend written in Typescript with a MySQL
+              database. Responsible for development, testing, estimations,
+              database migrations. I was also entrusted with releases and
+              demoing to clients by the project manager
               <br /> <b>August 2023 - August 2024</b>
               <br />
               <br />
               <b>Pizza Chef: Ecco Pizzeria</b>
-              <br /> Worked in a fast paced environment as both back of house
-              {" &"} front of house chef at my local restaurant, learnt how to
-              manage stock and balance timing and work under pressure.
-              Responsible for food preparation, furnace managing, stock taking
-              and cleaning
+              <br />
+              Worked in a fast paced environment as both back of house and front
+              of house chef at my local restaurant, learnt how to manage stock
+              and balance timing and work under pressure. Responsible for food
+              preparation, furnace managing, stock taking and station cleaning
               <br /> <b>August 2022 - February 2023</b>
             </div>
           </section>
