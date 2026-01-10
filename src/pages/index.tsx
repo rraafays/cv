@@ -73,7 +73,9 @@ const App: React.FC = () => {
 
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>Languages</h2>
-            <p>English, Chinese, Urdu</p>
+            <p>English: Native</p>
+            <p>Chinese: HSK2</p>
+            <p>Urdu: Beginner</p>
           </section>
 
           <section style={{ marginBottom: "20px" }}>
