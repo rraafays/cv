@@ -131,14 +131,11 @@ const App: React.FC = () => {
           <section style={{ marginBottom: "20px" }}>
             <h2 style={{ fontSize: "16px" }}>About</h2>
             <div style={{ fontSize: "14px" }}>
-              I'm Raf, Currently in my personal time I'm studying Chinese, I
-              have achieved HSK2 in just under 6 months and I'm hoping to take
-              the HSK3 exam this year. I'm passionate about connecting with art
-              and people through that art. I love to read and learn recipes and
-              cooking techniques from narrative cookbooks I hope to write my own
-              someday, away from the kitchen I like to explore music and movies
-              and support my favourite artists and directors. When I'm away from
-              home I'm often found practicing Muay Thai at my local gym
+              I'm Raf, I love to read and learn from narrative cookbooks I hope
+              to write my own someday, away from the kitchen I like to explore
+              music and movies while supporting creators. Away from home I'm
+              often found studying Chinese or practicing Muay Thai at my local
+              gym
             </div>
           </section>
           <section style={{ marginBottom: "20px" }}>
